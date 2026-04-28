@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>2FA App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>🔐 Seguridad 2FA</h2>
+
+    <input id="username" placeholder="Usuario">
+    <input id="password" type="password" placeholder="Contraseña">
+
+    <button onclick="register()">Register</button>
+    <button onclick="login()">Login</button>
+
+    <hr>
+
+    <button onclick="configurar2FA()">Generar QR</button>
+    <div id="qr"></div>
+
+    <input id="codigo2fa" placeholder="Código 6 dígitos">
+    <button onclick="activar2FA()">Activar 2FA</button>
+    <button onclick="login2FA()">Login con 2FA</button>
+</div>
+
+<script src="script.js"></script>
+<script src="auth.js"></script>
+
+</body>
+</html>
