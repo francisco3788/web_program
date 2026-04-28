@@ -136,4 +136,4 @@ app.post('/api/2fa/login', async (req, res) => {
     res.json({ token: jwtToken });
 });
 
-app.listen(3000, () => console.log("🚀 Servidor en http://localhost:3000"));
+app.listen(3000, '127.0.0.1');
