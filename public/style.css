@@ -1,5 +1,5 @@
 body {
-    background: #0f172a;
+    background: #e27406;
     font-family: Arial;
     display: flex;
     justify-content: center;
@@ -8,7 +8,7 @@ body {
 }
 
 .container {
-    background: white;
+    background: rgb(0, 0, 0);
     padding: 30px;
     border-radius: 12px;
     width: 350px;
@@ -25,7 +25,7 @@ button {
     width: 100%;
     padding: 10px;
     margin-top: 5px;
-    background: #2563eb;
+    background: hsl(108, 83%, 53%);
     color: white;
     border: none;
     border-radius: 6px;
